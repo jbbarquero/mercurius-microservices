@@ -14,8 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/events")
 public class EventRestController {
 
+	private final EventRepository eventRepository;
+
 	@Autowired
-	private EventRepository eventRepository;
+	public EventRestController(EventRepository eventRepository) {
+		super();
+		this.eventRepository = eventRepository;
+	}
 
 	@RequestMapping(method = RequestMethod.GET)
 	public Collection<Event> getAllEvents() {
