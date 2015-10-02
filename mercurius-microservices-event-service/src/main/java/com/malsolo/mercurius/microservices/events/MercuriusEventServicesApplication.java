@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MercuriusMicroservicesApplication {
+public class MercuriusEventServicesApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MercuriusMicroservicesApplication.class, args);
+        SpringApplication.run(MercuriusEventServicesApplication.class, args);
     }
 }
