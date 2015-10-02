@@ -1,4 +1,4 @@
-package com.malsolo.mercurius.microservices;
+package com.malsolo.mercurius.microservices.events;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
