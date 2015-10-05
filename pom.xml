@@ -11,9 +11,7 @@
 	<name>Mercurius microservices</name>
 	<description>Mercurius with Spring Boot and Spring Cloud for creating with microservice architechture</description>
 	<modules>
-		<!--
 		<module>mercurius-microservices-eureka-service</module>
-	-->
 		<module>mercurius-microservices-event-service</module>
 		<module>mercurius-microservices-alert-service</module>
 		<!--
