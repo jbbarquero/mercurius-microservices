@@ -26,8 +26,7 @@ public class RestTemplateExample implements CommandLineRunner {
 		};
 
 		ResponseEntity<List<Event>> exchange = this.restTemplate.exchange(
-				"http://event-service/{eventId}", GET, null, responseType,
-				Long.valueOf(1));
+				"http://event-service/events", GET, null, responseType);
 		
 		exchange.getBody().forEach(System.err::println);
 
