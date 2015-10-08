@@ -15,10 +15,9 @@
 		<module>mercurius-microservices-event-service</module>
 		<module>mercurius-microservices-alert-service</module>
 		<module>mercurius-microservices-ribbon-and-eureka</module>
-		<!--
-		<module>mercurius-microservices-hystrix</module>
 		<module>mercurius-microservices-hystrix-dashboard-service</module>
-		<module>mercurius-microservices-ribbon-and-eureka</module>
+		<module>mercurius-microservices-hystrix</module>
+		<!--
 		<module>mercurius-microservices-gateway</module>
 	-->
 	</modules>
