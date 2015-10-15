@@ -5,14 +5,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class BackgroundRestController {
+public class SummaryRestController {
 
 	@Autowired
 	private IntegrationClient integrationClient;
 
-	@RequestMapping("/passport")
-	public Background passport() {
-		return new Background(this.integrationClient.getAlerts(),
+	@RequestMapping("/summary")
+	public Summary passport() {
+		return new Summary(this.integrationClient.getAlerts(),
 				this.integrationClient.getEvents());
 	}
 }

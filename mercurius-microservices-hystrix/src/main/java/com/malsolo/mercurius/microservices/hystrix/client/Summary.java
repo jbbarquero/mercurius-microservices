@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Background {
+public class Summary {
 
-	private Collection<Alert> bookmarks;
+	private Collection<Alert> alerts;
 
-	private Collection<Event> contacts;
+	private Collection<Event> events;
 
 }
