@@ -11,7 +11,7 @@ public class SummaryRestController {
 	private IntegrationClient integrationClient;
 
 	@RequestMapping("/summary")
-	public Summary passport() {
+	public Summary summary() {
 		return new Summary(this.integrationClient.getAlerts(),
 				this.integrationClient.getEvents());
 	}
